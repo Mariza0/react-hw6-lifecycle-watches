@@ -2,7 +2,7 @@ image:
    Ubuntu  # образ для сборки
   
 
-stack: node  # окружение
+stack: node 16 # окружение
 
 branches:
   only:
