@@ -1,13 +1,14 @@
 image: Ubuntu  # образ для сборки
 
-stack: npm 16 # окружение
+environment:
+  node_version: "16"  # версия Node.js
 
 branches:
   only:
     - main  # ветка git
 
 cache:
-  npm: true  # кеширование node_modules
+  - node_modules  # кеширование зависимостей
 
 install:
   - npm install  # команда установки зависимостей
@@ -26,3 +27,4 @@ deploy_script:  # скрипт развёртывания
   - git config --global user.email ci@appveyor.com
   - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
   - npx push-dir --dir=build --branch=gh-pages --force --verbose
+
