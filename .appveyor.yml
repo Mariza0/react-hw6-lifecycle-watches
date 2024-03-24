@@ -1,4 +1,6 @@
-image: Ubuntu  # образ для сборки
+image: 
+      - Ubuntu  # образ для сборки
+      - Visual Studio 2019
 
 stack: node 18  # окружение
 
