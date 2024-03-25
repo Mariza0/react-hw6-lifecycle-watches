@@ -12,7 +12,7 @@ function App() {
                    description="Some quick example text to build on the card title and make up the bulk of the card's content."
                    link="Go somewhere" 
             >
-                <img className="card-img" src="src/assets/card.png" alt="Card image" />
+                <img className="card-img" src="src/img/card.png" alt="Card image" />
             </Card>
 
             <Card  title="Special title treatment"
