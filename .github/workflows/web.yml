@@ -27,10 +27,10 @@ jobs:
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }} 
+          node-version: ${{ matrix.node-version }}
 
-      # - name: Install dependencies
-      #   run: npm
+      - name: Install dependencies
+        run: npm install
 
       # - name: Run linters
       #   run: yarn lint
@@ -38,12 +38,8 @@ jobs:
       # - name: Run test
       #   run: yarn coverage
 
-      build_script:
-  - npm install
-  - npm run build
-
-      # - name: Build
-      #   run: npm build
+      - name: Build
+        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -56,5 +52,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-
-        
