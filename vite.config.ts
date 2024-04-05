@@ -8,7 +8,7 @@ export default defineConfig({
       external: ['uuid']
     }
   },
-  base: "react-hw6-lifecycle-time",
+  base: "react-hw6-lifecycle-watches",
   assetsInclude: ['src/img'],
   plugins: [react()],
 })
