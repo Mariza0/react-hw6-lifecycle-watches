@@ -2,7 +2,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/6i2r8rxdx8m98owt?svg=true)](https://ci.appveyor.com/project/Mariza0/react-hw6-lifecycle-watches)
 
 
-[ссылка на тестовый проект](https://mariza0.github.io/react-hw6-lifecycle-watches.git/) 
+[ссылка на тестовый проект](https://Mariza0.github.io/react-hw6-lifecycle-watches/) 
 
 [ссылка на задание](https://github.com/netology-code/ra16-homeworks/tree/ra-51/lifecycle-http/watches)
 
