@@ -1,5 +1,6 @@
 
-[![Build status](https://ci.appveyor.com/api/projects/status/1bcfm6u6df00wcjm?svg=true)](https://ci.appveyor.com/project/Mariza0/react-hw5-composition-cards)
+[![Build status](https://ci.appveyor.com/api/projects/status/6i2r8rxdx8m98owt?svg=true)](https://ci.appveyor.com/project/Mariza0/react-hw6-lifecycle-watches)
+
 
 [ссылка на тестовый проект](https://mariza0.github.io/react-hw6-lifecycle-watches.git/) 
 
