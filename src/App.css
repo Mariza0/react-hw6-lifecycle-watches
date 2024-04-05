@@ -48,3 +48,75 @@
 .read-the-docs {
   color: #ffffff;
 }
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.form-class {
+  display: flex;
+  flex-direction: row;
+  align-items:end;
+  
+}
+
+.label-data {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* отрисовка часов */
+
+.clock {
+  margin: 20px;
+}
+
+.clock-time {
+  position: relative;
+  font-size: 24px;
+  width: 110px; /* Диаметр часов */
+  height:45px; /* Диаметр часов */
+  border: 1px solid #333; /* Цвет рамки */
+  border-radius: 5%; /* Создает круглую форму */
+}
+
+.clock-class {
+  width:120px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.clock-city {
+  font-size: 24px;
+}
+
+.clocks-container {
+ 
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.clock-form {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+
+.input-class {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.btn-clock {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
