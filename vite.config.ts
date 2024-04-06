@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   build: {
     rollupOptions: {
-      external: ['uuid']
+      external: ['@types/uuid']
     }
   },
   base: "react-hw6-lifecycle-watches",
